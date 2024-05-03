@@ -1,0 +1,34 @@
+.item1{
+    background-image: url('https://th.bing.com/th/id/OIG2.MAoPplEnUBxY_5grOMDg?w=1024&h=1024&rs=1&pid=ImgDetMain');
+  }
+  .item2{
+    background-image: url('https://th.bing.com/th/id/OIG2.MAoPplEnUBxY_5grOMDg?w=1024&h=1024&rs=1&pid=ImgDetMain')
+  }
+  .item3{
+    background-image: url('https://th.bing.com/th/id/OIG1.AmLAFfHSWzEYXXWtr9_U?pid=ImgGn')
+  }
+  .item4{
+    background-image: url('https://th.bing.com/th/id/OIG4.x7Drq2CWdMNeCv8hf.eI?pid=ImgGn')
+  }
+  .item5{
+    background-image: url('https://th.bing.com/th/id/OIG2.MAoPplEnUBxY_5grOMDg?w=1024&h=1024&rs=1&pid=ImgDetMain')
+  }
+
+
+  /* const [items, setItems] = useState([
+  {
+    imgSrc: "https://th.bing.com/th/id/OIG4.0r_0mpCcEBeto_.R..zC?pid=ImgGn",
+    author: "Abel",
+    title: "Design",
+    topic: "Code",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsam deserunt accusantium aperiam consequatur, architecto optio incidunt nemo nulla inventore culpa rerum adipisci similique vel nihil laboriosam. Vero, numquam expedita."
+  },
+  {
+    imgSrc: "https://th.bing.com/th/id/OIG2.sJI7PNWIEbyrLPuJ2Ha7?w=1024&h=1024&rs=1&pid=ImgDetMain",
+    author: "Abel",
+    title: "Design",
+    topic: "Code",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsam deserunt accusantium aperiam consequatur, architecto optio incidunt nemo nulla inventore culpa rerum adipisci similique vel nihil laboriosam. Vero, numquam expedita."
+  },
+  // Add more items here...
+]); */
