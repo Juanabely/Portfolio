@@ -16,15 +16,17 @@
 }
 .carousel .list .item .content{
     position: absolute;
+    font-family: poppins;
+    gap: 2px;
     top: 20%;
     width: 1140px;
-    max-width: 80%;
-    left: 50%;
+    max-width: 75%;
+    left: 45%;
     transform: translateX(-50%);
     padding-right: 30%;
     box-sizing: border-box;
     color: white;
-    text-shadow: 0 5px 10px #0004;   
+    text-shadow: 0 95px 90px rgba(0, 41, 162, 0.267);   
 }
 .carousel .list .item .content .author{
     font-weight: bold;
@@ -45,7 +47,7 @@
     gap: 5px;
     margin-top: 20px;
 }
-.carousel .list .item .content button{
+.carousel .list .item .content .buttons .btn1{
     border: none;
     background-color: white;
     letter-spacing: 3px;
