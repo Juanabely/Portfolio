@@ -25,10 +25,10 @@ function Nav() {
         </li>
 
         <li>
-          <a href="#contact">
+          <Link to="/skills">
             <i className="fa fa-pen nav-icon"></i>
             <span className="nav-text">Blog/skills</span>
-          </a>
+          </Link>
         </li>
 
         <li>

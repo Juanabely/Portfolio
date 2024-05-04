@@ -34,4 +34,10 @@ body {
     overflow: hidden;
     
   }
+  .skill{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
  
