@@ -16,8 +16,8 @@ const Skills = (props) => (
 >
 <Card
     style={{
-      width: 400,
-      borderRadius:20
+      width: 330,
+      borderRadius:25
     }}
     cover={
       <img

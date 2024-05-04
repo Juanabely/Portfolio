@@ -32,7 +32,7 @@ function Logout() {
        
     </div>
     <div className='cv'>
-        <a href={pdf} download ><button>Download CV</button></a>
+        <a href={pdf} download ><button id='cv'>Download CV</button></a>
     </div>
     <div className='din'><img src={DNA} alt="dna" /></div> 
     </motion.div>

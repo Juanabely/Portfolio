@@ -104,7 +104,7 @@ function Projects() {
                 <div className="content">
                     <div className="author">Group</div>
                     <div className="title">Nairobi Haven</div>
-                    <div className="topic">React + Flask</div>
+                    <div className="topic" id='spline2'>React + Flask</div>
                     <div className="des">
                        Nairobi haven hunt is project based on house hunting in the big city.The website has  a handful of houses to be seen by users ,once the user is locked in there is also an option to contact the agency to plan a house tour,like a huuse and comments.Check it out on github
                     </div>

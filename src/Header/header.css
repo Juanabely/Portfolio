@@ -137,7 +137,7 @@ margin-left: 120px;
    }
    
 }
-@media (max-width:345px){
+@media (max-width:376px){
     
    .name{
     font-size: 30px;
@@ -146,10 +146,10 @@ margin-left: 120px;
    }
    .words{
     margin-left: 160px;
-    font-size: 25px;
+    font-size: 16px;
     height: 400px;
     max-width: 250px;
-    margin-top: 70px;
+    margin-top: 40px;
    }
    .dev{
     margin-top: 50px;
@@ -159,6 +159,9 @@ margin-left: 120px;
    }.dots{
     margin-left: -30px;
     margin-top: -490px;
+   }
+   .dna{
+    display: none;
    }
    
 }
