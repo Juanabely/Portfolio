@@ -80,6 +80,30 @@ margin-left: 120px;
     
     transform: translateY(-4px);
 }
+.dna{
+    position: absolute;
+    margin-left: 67rem;
+    margin-top: -29rem;
+    transform: translatex(70px);
+    transition: 2s;
+    animation: dnaMove 1s linear 1 forwards;
+    
+}
+@keyframes dnaMove {
+    to{
+        transform: translatex(0);
+    }
+}
+
+.dna img{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    transition: 2s;
+}
+.dna img:hover{
+    transform: scale(.8);
+}
 @media (max-width:678px){
     
    .name{
@@ -101,6 +125,40 @@ margin-left: 120px;
    }.dots{
     margin-left: -30px;
     margin-top: -470px;
+   }
+   .dna{
+    margin-top: -0.01rem;
+    margin-left: 170px;
+    
+   }
+   .dna img{
+    width: 200px;
+    height: 200px;
+   }
+   
+}
+@media (max-width:345px){
+    
+   .name{
+    font-size: 30px;
+    max-width: 300px;
+    margin-left: 160px;
+   }
+   .words{
+    margin-left: 160px;
+    font-size: 25px;
+    height: 400px;
+    max-width: 250px;
+    margin-top: 70px;
+   }
+   .dev{
+    margin-top: 50px;
+    font-size: 25px;
+    width: 400px;
+    margin-left: 150px;
+   }.dots{
+    margin-left: -30px;
+    margin-top: -490px;
    }
    
 }

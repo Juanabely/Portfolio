@@ -250,9 +250,14 @@ color: #555;
 @media (max-width:678px){
     .carousel .list .item .content{
         padding-right: 0;
+        margin-top: -50px;
     }
     .carousel .list .item .content .title{
-        font-size: 30px;
+        font-size: 4px;
+        margin-top: -50px;
+    }
+    #spline{
+        font-size: 40px;
     }
    
 }

@@ -1,67 +1,35 @@
-export const productData = [
+export const socialsData = [
     {
       id: 1,
       imageurl:
-        "https://images.unsplash.com/photo-1613575831056-0acd5da8f085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50JTIwbGl2aW5nJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D",
-      name: "Bedsitter",
-      price: "Ksh1500",
-      location: "Kitengela",
+        "https://th.bing.com/th/id/OIG3.zq8inCT4m5xSYMjM.5SS?pid=ImgGn",
+      name: "Linkedin profile",
+      
+      phrase: "Checkout my linkedin profile below",
+      logo:'<LinkedinOutlined />'
     },
     {
       id: 2,
       imageurl:
-        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBhcnRtZW50JTIwbGl2aW5nJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D",
-      name: "Bedsitter",
-      price: "Ksh2500",
-      location: "Githurai",
+        "https://th.bing.com/th/id/OIG4.uIWP6OOefW_wcMUCJHm9?pid=ImgGn",
+      name: "Instagram profile",
+      
+      phrase: "Checkout my Instagram profile below & like",
     },
     {
       id: 3,
       imageurl:
-        "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFwYXJ0bWVudCUyMGxpdmluZyUyMHJvb218ZW58MHx8MHx8fDA%3D",
-      name: "Bedsitter",
-      price: "Ksh3500",
-      location: "Kasarani",
+        "https://th.bing.com/th/id/OIG3.TmYNF7d1tKicn.RhWLHZ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+      name: "Whatsapp profile",
+      
+      phrase: "Chat with me ",
     },
     {
       id: 4,
       imageurl:
-        "https://images.unsplash.com/photo-1612419299101-6c294dc2901d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFwYXJ0bWVudCUyMGxpdmluZyUyMHJvb218ZW58MHx8MHx8fDA%3D",
-      name: "Bedsitter",
-      price: "Ksh4500",
-      location: "Kahawa",
+        "https://th.bing.com/th/id/OIG1.Y1_ILbst2bR1d0ZCCx.Z?w=1024&h=1024&rs=1&pid=ImgDetMain",
+      name: "Github profile",
+      phrase: "Checkout my Github profile below",
     },
-    {
-      id: 5,
-      imageurl:
-        "https://images.unsplash.com/photo-1537726235470-8504e3beef77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D",
-      name: "Bedsitter",
-      price: "Ksh5500",
-      location: "Karen",
-    },
-    {
-      id: 6,
-      imageurl:
-        "https://plus.unsplash.com/premium_photo-1678402545077-7a9ec2b5e5b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnVybml0dXJlfGVufDB8fDB8fHww",
-      name: "Bedsitter",
-      price: "Ksh6500",
-      location: "Kileleshwa",
-    },
-    {
-      id: 7,
-      imageurl:
-        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
-      name: "Bedsitter",
-      price: "Ksh7500",
-      location: "Mlolongo",
-    }
-    // ,
-    // {
-    //   id: 8,
-    //   imageurl:
-    //     "https://images.prop24.com/l4t7v47s2chnstu4tba2y62mjy/Crop237x198",
-    //   name: "Bedsitter",
-    //   price: "Ksh8500",
-    //   location: "Kariobangi",
-    // },
+    
   ];

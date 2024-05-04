@@ -7,6 +7,9 @@ import Projects from '../Projects/Projects'
 import VismeForm from '../Contact/VismeForm'
 import Skills from '../Skills/Skills'
 import { skillData } from '../assets/skills'
+import Socials from '../Socials/Socials'
+import Logout from '../Logout/Logout'
+import { socialsData } from '../assets/data'
 
 
 function App() {
@@ -18,6 +21,16 @@ function App() {
       url={item.imageurl}
       price={item.price}
       describe={item.describe}
+      
+    />
+  ));
+  const social = socialsData.map((item) => (
+    <Socials
+      key={item.id}
+      name={item.name}
+      url={item.imageurl}
+      logo={item.logo}
+      phrase={item.phrase}
       
     />
   ));
@@ -40,6 +53,12 @@ function App() {
         <div className='skill'>{skill}</div>
         </>
         }/>  
+        <Route path='/socials' element=
+        {
+          <>
+          <div className='social'>{social}</div>
+          </>}/>  
+        <Route path='/logout' element={<Logout/>}/>  
       
     
     </Routes>

@@ -39,10 +39,10 @@ function Nav() {
         </li>
 
         <li>
-          <a href="#">
+          <Link to="/socials">
             <i className="fa fa-bell nav-icon"></i>
-            <span className="nav-text">Notification</span>
-          </a>
+            <span className="nav-text">Socials</span>
+          </Link>
         </li>
 
       </ul>
@@ -51,12 +51,12 @@ function Nav() {
        
 
         <li>
-          <a href="#">
+          <Link to="/logout">
             <i className="fa fa-right-from-bracket nav-icon"></i>
             <span className="nav-text">
               Logout
             </span>
-          </a>
+          </Link>
         </li>  
       </ul>
    </nav>

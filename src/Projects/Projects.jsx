@@ -84,7 +84,7 @@ function Projects() {
                 <div className="content">
                     <div className="author">Abel</div>
                     <div className="title">Chatterbox</div>
-                    <div className="topic">React + Spline</div>
+                    <div className="topic" id='spline'>React + Spline</div>
                     <div className="des">
                     Chatterbox is an amzing project with a 3d addition to the frontend.No back-end implimented but is a huge step on the ui/ux.Its about an app that lets you colaborate with teams have tons of other apps developed with the team of devs in chatterbox.Feel free to explore both github and web visit.  
                     </div>

@@ -4,6 +4,7 @@ import { TextPlugin } from 'gsap/TextPlugin';
 
 import {motion} from 'framer-motion'
 import './header.css'
+import DNA from '../assets/dna1.png'
 
 
 
@@ -55,8 +56,8 @@ const Header = () => {
   <div>
         <p className='words'>
         Hello! I'm a passionate Full Stack Developer specializing in React and Flask, set to graduate from a comprehensive bootcamp next month. My journey in the tech industry has been exciting and rewarding, with a keen interest in UI/UX design. I believe in creating intuitive and engaging digital experiences that make a difference. I'm eager to bring my skills and passion to new challenges and opportunities.
-
         </p>
+        <div className='dna'><img src={DNA} alt="dna" /></div>
     </div>
     </div>
     

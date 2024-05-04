@@ -30,14 +30,137 @@
 }
 body {
     min-height: 100vh;
-    background: linear-gradient(90deg, #0d071a, #120383,#0b0637);
+    background: linear-gradient(90deg, #0d071a, #120383,#010006);
     overflow: hidden;
     
   }
-  .skill{
+  .social{
     display: flex;
-    gap: 10px;
-    justify-content: space-between;
+
+  }
+  .skill{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    margin: 25px;
+   gap: 50px;
     flex-wrap: wrap;
+    height: 100vh;
+    overflow-y: scroll;
+    margin-left: 50px;
+}
+#log{
+  font-size: 160%;
+  height: 90vh;
+  width: 100%;
+}
+#log h1{
+  font-size: 50px;
+  margin-top: 100px;
+  display: flexbox;
+  width: 650px;
+  font-family: poppins;
+  color: white;
+  margin-left: 200px;
+ }
+ .cv{
+  margin-top: -250px;
+  margin-left: 300px;
+ } 
+ .din{
+  margin-top: -400px;
+ 
+  margin-left: 900px;
+  transition: 2s;
+  transform: translatex(-50px);
+  animation: dinMove 2s linear 1 forwards;
+   }
+   @keyframes dinMove {
+    to{
+      transform: translatex(0);
+    }
+   }
+   .din img{
+    width: 600px;
+    height: 600px;
+   }
+@media (max-width:1074px){
+ .body-side{
+  margin-left: -45px;
+ }
+ .social{
+   flex-wrap: wrap;
+   height: 100vh;
+   overflow-y: scroll;
+ }
+ #log{
+  font-size: 20%;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+ }
+ #log h1{
+  font-size: 30px;
+  margin-top: 100px;
+  display: flexbox;
+  width: 250px;
+  font-family: poppins;
+  color: white;
+  margin-left: 80px;
+ }
+ .cv{
+  margin-top: -450px;
+  margin-left: 80px;
+ }  
+ .din{
+margin-top: 50px;
+z-index: 20000;
+margin-left: 10px;
+ }
+ .din img{
+  width: 200px;
+  height: 300px;
+ }
+ 
+}
+@media (max-width:800px){
+ .body-side{
+  margin-left: -45px;
+ }
+ .social{
+   flex-wrap: wrap;
+   height: 100vh;
+   overflow-y: scroll;
+ }
+ #log{
+  font-size: 20%;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+ }
+ #log h1{
+  font-size: 30px;
+  margin-top: 100px;
+  display: flexbox;
+  width: 250px;
+  font-family: poppins;
+  color: white;
+  margin-left: 80px;
+ }
+ .cv{
+  margin-top: -450px;
+  margin-left: 80px;
+ }  
+ .din{
+margin-top: 50px;
+z-index: 20000;
+margin-left: 10px;
+ }
+ .din img{
+  width: 200px;
+  height: 300px;
+ }
+ 
 }
  

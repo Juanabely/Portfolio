@@ -1,0 +1,9 @@
+.skill-img{
+    transition: 2s;
+   
+
+}
+.skill-img:hover{
+    z-index: 200;
+   transform: scale(1.1);
+}
