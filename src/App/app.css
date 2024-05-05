@@ -138,7 +138,7 @@ margin-left: 10px;
   font-size: 20%;
   height: 90vh;
   width: 100%;
-  position: relative;
+ 
  }
  #log h1{
   font-size: 30px;
@@ -150,13 +150,14 @@ margin-left: 10px;
   margin-left: 80px;
  }
  .cv{
-  margin-top: -250px;
-  margin-left: 175px;
+  margin-top: -330px;
+  margin-left: 110px;
+  position: fixed;
  }  
  .din{
-margin-top: -100px;
+margin-top: -300px;
 z-index: 20000;
-margin-left: -29px;
+margin-left: 59px;
  }
  .din img{
   width: 180px;
@@ -191,16 +192,16 @@ margin-left: -29px;
  }
  .cv{
   margin-top: -250px;
-  margin-left: 160px;
+  margin-left: 120px;
  }  
  .din{
-margin-top: -100px;
+margin-top: -220px;
 z-index: 20000;
-margin-left: 10px;
+margin-left: 60px;
  }
  .din img{
-  width: 150px;
-  height: 300px;
+  width: 100px;
+  height: 200px;
  }
 
  
