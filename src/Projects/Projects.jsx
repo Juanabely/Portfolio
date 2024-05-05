@@ -36,7 +36,7 @@ function Projects() {
       runTimeout = setTimeout(() => {
         carouselRef.current.classList.remove('next');
         carouselRef.current.classList.remove('prev')
-      }, 3000);
+      }, 2000);
     };
   return (
     <>
@@ -189,7 +189,7 @@ function Projects() {
     
 </div>
 
-<div className="time"></div>
+{/* <div className="time"></div> */}
     </div>
     </>
   )
