@@ -36,6 +36,22 @@ a{
         max-height: 200px;
         margin-top: 300px;
        }
+       
+      
+      
+  }
+  @media (max-width:330px) {
+    
+    .dn{
+        margin-top: -0.01rem;
+        margin-left: 170px;
+        
+       }
+       .dn img{
+        width: 200px;
+        max-height: 200px;
+        margin-top: 300px;
+       }
       
       
   }
